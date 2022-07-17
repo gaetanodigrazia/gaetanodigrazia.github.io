@@ -4,7 +4,8 @@ layout: default
 <!-- Post Featured Image -->
 {% if page.image %}
 <div class="text-center mx-auto mb-5">
-  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}"
+    alt="{{ page.title }}">
 </div>
 {% endif %}
 <!-- End Featured Image -->
@@ -19,10 +20,10 @@ layout: default
     {{content}}
   </div>
 
-  {% if page.comments == true %}
+  <!-- {% if page.comments == true %}
   <div id="comments">             
       {% include disqus.html %} 
   </div>
-  {% endif %}
+  {% endif %} -->
 
 </div>
