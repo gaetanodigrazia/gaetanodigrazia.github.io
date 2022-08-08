@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How to upload a file to Min.io with Airflow"
+title:  "How to upload a file in Min.io with Airflow"
 author: gaetano
 categories: [ upload, file, min.io, airflow, dag, algorithm, big data]
 image: assets/images/how_to.png
 ---
-In this tutorial I'll show you how to programmatically upload a file to min.io with Airflow.
+In this tutorial I'll show you how to programmatically upload a file in min.io with Airflow.
 
 For first clone this [repository](http://localhost:9000){:target="_blank"} everywhere you want, then open the folder with visual studio (or even just browse into and open a terminal) and write the following command
 
