@@ -41,3 +41,5 @@ If there exists a path between $$x$$ and $$y$$, then it is said that $$y$$ is **
 If $$x=y$$ the path is called **cycle**, trivially, however, a directed **graph acyclic** is an oriented graph <em>non</em> containing cycles (DAG) that is shown in the figure below.
 
 <a title="Not me, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:DirectedAcyclicGraph.png"><img width="128" alt="DirectedAcyclicGraph" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/DirectedAcyclicGraph.png"></a>
+
+We can encounter the graph theory in Airflow and Neo4J.
