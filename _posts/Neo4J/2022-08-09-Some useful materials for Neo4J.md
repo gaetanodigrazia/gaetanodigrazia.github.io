@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Some useful materials to start wi Neo4J"
+title:  "Some useful materials to start with Neo4J"
 author: gaetano
-categories: [ query, graphs, database, network, neo4j]
+categories: [ query, graphs, database, network, neo4j, big, data]
 image: assets/images/programming.png
 ---
 ### Neo4J
-A very usefull video course that you can watch is the one offered by Laith Academy on Youtube ([localhost:8080](https://www.youtube.com/watch?v=8jNPelugC2s){:target="_blank"}).
+A very usefull video course that you can watch is the one offered by Laith Academy on [Youtube](https://www.youtube.com/watch?v=8jNPelugC2s){:target="_blank"}.
 
 So, in the video the author install Neo4J software but I've switched to docker solution that is faster and without configuration problems.
 
