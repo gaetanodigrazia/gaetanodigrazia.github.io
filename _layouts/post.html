@@ -11,6 +11,19 @@ post_class: post-template
     type="text/javascript"></script>
 <div class="row">
 
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+
     <!-- Post -->
     {% assign author = site.authors[page.author] %}
 
@@ -75,7 +88,7 @@ post_class: post-template
             {% endif %}
         </div>
         <!-- End Prev/Next -->
-        
+
         <!-- Share buttons Box -->
         {% include share-buttons.html %}
         <!-- Share buttons Box -->
