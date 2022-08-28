@@ -4,6 +4,7 @@ title:  "[Image processing] - Intro all'image processing"
 author: gaetano
 categories: [ matlab, images, processing, algorithm, matrix, vector, scripts]
 image: assets/images/computer_vision.png
+hidden: true
 ---
 
 # Intro
