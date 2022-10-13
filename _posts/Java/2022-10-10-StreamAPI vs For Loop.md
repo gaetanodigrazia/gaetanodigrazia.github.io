@@ -7,31 +7,30 @@ image: assets/images/programming.png
 
 ---
 
-Maybe someone can ask itself, as ever, if use a certain thing instead of another will be more efficient.
-This is way this post bornt: let you decide if it's better to use Java8 Stream API or a simple For Loop to filter a List of Objects.
+Perhaps someone may wonder, as always, whether using one thing instead of another will be more efficient. This is why this post is born: give you some tips to decide if it is better to use Java8 Stream API or a simple For Loop to filter a List of Objects.
 
 I will give you the answer as fast as possibile:
 
-<h2>THERE IS NO AN ABSOLUTE ANSWER: IT DEPENDS!</h2>
+<h2>THERE IS NO ABSOLUTE ANSWER: IT DEPENDS!</h2>
 
-But from what it depends? It depends from:
+But what does it depend on? Depend on:
 
 1. Java version used;
 2. Code readability;
 3. Filtering complexity.
 
-<h4>Java version used</h4>
-So, the first point is quite simple: if you are using Java version older than 8 (for compatiblity with some already formed application) there is no chance to decide: you *MUST* use the For Loop.
+<h4> Java version used </h4>
+So, the first point is quite simple: if you are using a Java version older than 8 (for compatibility with some already formed application) there is no choice: you must *MUST* use the For Loop.
 
-<h4>Code readability</h4>
-From one side we have the super classic For Loop from the other side we can note that the Java Stream API are a little bit mor human readable end mnemonic for example, before look at the code, we can do this reasonment
+<h4> Readability of the code </h4>
+On the one hand we have the super classic For Loop, on the other we can see that the Java Stream APIs are a bit more human readable and for example, before looking at the code, we can do this reasoning
 
-What is you source data name? The source name is *orders*
-How much data you have? I don't know precisely, I have a **stream** that is a list.
+What is the name of the source data? The name of the source is *orders*
+How much data do you have? I don't know exactly, I have a **stream** which is a list.
 
-What do you want to do with this stream? I want to **filter** it with some conditions.
+What do you want to do with this flow? I want to **filter** it with some conditions.
 
-Where do you want to put the result of the filtering? I want to **collect** it in the same origin data type, a list.
+Where do you want to put the filter result? I want to **collect** it in the same type of source data, a list.
 
 And now the code
 
@@ -40,7 +39,7 @@ And now the code
 	    .filter(c -> c.getAmount() > 36378 && c.getEvenOrOdd().equals("Even"))
 	    .collect(Collectors.toList());
 
-In second instance note that with Stream you are able to collect the result in the **same** origin data source that you're filtering meanwhile, with a for, you have to declare a new data structure, a new ArrayList for example, to save the result of the elaboration. 
+Secondly, note that with Stream you can collect the result in the **same** source data source you are filtering while, with a for, you have to declare a new data structure, for example a new ArrayList, to save the result of the processing.
 
 <h4>Performance in complex filtering</h4>
 
@@ -75,7 +74,7 @@ Fourth timer media is: 206\\
 Fifth timer media is: 264\\
 Sixth timer media is: 248
 
-So what you use depends on what do you need, in general theese are the main difference between the two methods.
-If you have to do quite simple operation, maybe, the for loop is the answer to your problems meanwhile if you have to implement some complex filter, then, you can use Stream API (with one or more filter) to improve readability and, in certain case, preformance.
+So what you use depends on what you need, in general these are the main difference between the two methods.
+If you need to do a fairly simple operation, perhaps, the for loop is the answer to your problems while if you need to implement complex filters, then you can use Stream API (with one or more filters) to improve readability and, in some case, performance.
 
 [linkedRepo]: https://github.com/gaetanodigrazia/Java4Geeks/tree/master/src/main/java/com/java4geeks/streamvsforloop
