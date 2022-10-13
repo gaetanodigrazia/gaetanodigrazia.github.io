@@ -35,7 +35,7 @@ Where do you want to put the result of the filtering? I want to **collect** it i
 
 And now the code
 
-orders
+	     orders
         .stream()
 	    .filter(c -> c.getAmount() > 36378 && c.getEvenOrOdd().equals("Even"))
 	    .collect(Collectors.toList());
@@ -47,32 +47,32 @@ In second instance note that with Stream you are able to collect the result in t
 Last but not least the performance, with the code that you can find in [Github][linkedRepo] I've obtainted the following results
 
 If I run it only one time
-> Order size is: 500000
-Time Elapsed - SimpleFilteringWithFor: 47
-Time Elapsed - SimpleFilteringWithLambda: 42
-Time Elapsed - ComplexFilteringWithFor: 59
-Time Elapsed - ComplexFilteringWithLambda: 42
-Time Elapsed - VeryComplexFilteringWithFor: 69
+> Order size is: 500000\\
+Time Elapsed - SimpleFilteringWithFor: 47\\
+Time Elapsed - SimpleFilteringWithLambda: 42\\
+Time Elapsed - ComplexFilteringWithFor: 59\\
+Time Elapsed - ComplexFilteringWithLambda: 42\\
+Time Elapsed - VeryComplexFilteringWithFor: 69\\
 Time Elapsed - VeryComplexFilteringWithLambda: 43
 
 And 10 times with order size 500000
 
-> Order size is: 500000
-First timer media is: 25
-Second timer media is: 31
-Third timer media is: 25
-Fourth timer media is: 31
-Fifth timer media is: 43
+> Order size is: 500000\\
+First timer media is: 25\\
+Second timer media is: 31\\
+Third timer media is: 25\\
+Fourth timer media is: 31\\
+Fifth timer media is: 43\\
 Sixth timer media is: 40
 
 10 times with with order size 2500000
 
-> Order size is: 2500000
-First timer media is: 161
-Second timer media is: 234
-Third timer media is: 165
-Fourth timer media is: 206
-Fifth timer media is: 264
+> Order size is: 2500000\\
+First timer media is: 161\\
+Second timer media is: 234\\
+Third timer media is: 165\\
+Fourth timer media is: 206\\
+Fifth timer media is: 264\\
 Sixth timer media is: 248
 
 So what you use depends on what do you need, in general theese are the main difference between the two methods.
