@@ -8,7 +8,7 @@ image: assets/images/programming.png
 ---
 
 Maybe someone can ask itself, as ever, if use a certain thing instead of another will be more efficient.
-This is way this post bornt: let you decide if it's better to use Java8 Stream API or a simple For Loop to filter a List of Objects.\\
+This is way this post bornt: let you decide if it's better to use Java8 Stream API or a simple For Loop to filter a List of Objects.
 
 I will give you the answer as fast as possibile:
 
