@@ -24,7 +24,7 @@ The next step of the Turing test is to replace A with a **machine** and ensure t
 ## Approaches to artificial intelligence
 There are different types of approaches to artificial intelligence:
 <ul>
-    <li>pproaches based on symbolic processing. That is, the hypothesis of the physical symbol system;</li>
+    <li> approaches based on symbolic processing. That is, the hypothesis of the physical symbol system;</li>
     <li> sub-symbolic approaches. Symbol grounding problem. In which the symbol system is external. </li>
 </ul>
 **The interaction between the machine and the environment leads to what is called emergent behavior.**
