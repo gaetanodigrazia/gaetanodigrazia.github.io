@@ -3,7 +3,7 @@ layout: post
 title:  "What is artificial intelligence?"
 author: gaetano
 categories: [ Artificial, Intelligence, AI, Turing ]
-image: assets/images/ai_image.img
+image: assets/images/ai_image.jpg
 
 ---
 # Intro
