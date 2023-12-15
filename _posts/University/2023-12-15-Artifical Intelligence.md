@@ -6,7 +6,8 @@ categories: [ Artificial, Intelligence, AI, Turing ]
 image: assets/images/ai_image.jpg
 
 ---
-# Intro
+"Artificial intelligence (AI) is a discipline that studies whether and how intelligent computer systems capable of simulating the ability and behavior of human thought can be created."
+
 At the basis of artificial intelligence there are the concepts of intelligence and calculation which are, for them, concepts that are sometimes ambiguous and borrowed from the everyday life of human beings.
 In this specific case, however, we are looking at the world of machines that are capable of processing information.
 
