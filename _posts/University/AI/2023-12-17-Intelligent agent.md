@@ -49,11 +49,13 @@ Such behavior requires information about how the world works and behaves and is 
 This additional information completes the “view of the world” model.
 
 ### Goal-based agents and Utility-based agents
-The difference between the two agent is that one is state-based and another is goal-based.\\
+
+The difference between the two agent is that one is state-based and another is goal-based.
 A goal is something like a situaton that we want to achieve and a states is something numerical that allow us to reach the goal.
 You can define a measure of how desirable each state is but, usually, it not happen for the goal that is a sort a beginning of the process to reach a new goal and, then, the final goal.
 
 ### Agent that learns
+
 In some publications, artificial intelligence is referred to as autonomous intelligent agents, a term that indicates the independence of their actions, and their ability to learn and adapt to evolving circumstances. According to Nikola Kasabov, artificial intelligence systems must exhibit the following characteristics:
 <ul>
 <li>learning and improving through interaction with the environment</li>
