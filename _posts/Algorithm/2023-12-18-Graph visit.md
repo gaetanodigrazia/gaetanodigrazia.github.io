@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is a graph?"
+title:  "Way to visit a graph"
 author: gaetano
 categories: [ algorithm, graphs, network, edge, vertices, research, ai, data, structure]
 image: assets/images/algorithm.png
