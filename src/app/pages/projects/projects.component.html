@@ -1,1 +1,18 @@
-<p>projects works!</p>
+<div class="projects-container">
+  <h2 class="heading">💻 Projects</h2>
+
+  <div class="card-grid">
+    <div class="card" *ngFor="let project of projects">
+      <div class="card-body">
+        <h3 class="title">{{ project.title }}</h3>
+        <p class="description">{{ project.description }}</p>
+        <p class="tech-stack">Tech: {{ project.techStack.join(', ') }}</p>
+        <p class="date">{{ project.date }}</p>
+        <div class="links">
+          <a *ngIf="project.githubUrl" [href]="project.githubUrl" target="_blank" class="btn">GitHub</a>
+          <a *ngIf="project.liveDemoUrl" [href]="project.liveDemoUrl" target="_blank" class="btn btn-secondary">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
