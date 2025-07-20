@@ -8,6 +8,7 @@ import { SettingsComponent } from './pages/settings/settings.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { AppRoutingModule } from './app.routing.module';
+import { ArticlesComponent } from './pages/articles/articles.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -20,7 +21,8 @@ const routes: Routes = [
     AppComponent,
     SidebarComponent,
     HomeComponent,
-    SettingsComponent
+    SettingsComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,
