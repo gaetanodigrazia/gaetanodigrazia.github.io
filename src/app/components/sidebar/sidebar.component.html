@@ -34,6 +34,8 @@
 <aside *ngIf="isMobile && menuOpen" class="sidebar mobile open">
   <nav>
     <a routerLink="/home" (click)="menuOpen = false">🏠 Home</a>
+    <a routerLink="/projects" (click)="menuOpen = false">💻 Projects</a>
+    <a routerLink="/articles" (click)="menuOpen = false">🗞 Articles</a>
     <a routerLink="/settings" (click)="menuOpen = false">⚙️ Settings</a>
   </nav>
 </aside>
