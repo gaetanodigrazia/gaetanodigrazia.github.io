@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { AppRoutingModule } from './app.routing.module';
 import { ArticlesComponent } from './pages/articles/articles.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
     SidebarComponent,
     HomeComponent,
     SettingsComponent,
+    ProjectsComponent,
     ArticlesComponent
   ],
   imports: [
