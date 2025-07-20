@@ -1,0 +1,40 @@
+.about-me {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: #2c2c2c;
+  line-height: 1.75;
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+    border-left: 4px solid #007acc;
+    padding-left: 1rem;
+  }
+
+  p {
+    font-size: 1.05rem;
+    margin-bottom: 1.1rem;
+  }
+
+  strong {
+    color: #005b99;
+    font-weight: 600;
+  }
+
+  em {
+    font-style: italic;
+    color: #555;
+  }
+
+  img {
+    border-radius: 12px;
+  }
+}
